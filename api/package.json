@@ -1,0 +1,17 @@
+{
+  "name": "agentcore-chat-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Authenticated streaming Lambda adapter for the AgentCore chat lab",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test ../tests/api/*.test.mjs",
+    "check": "node --check core.mjs && node --check index.mjs",
+    "package": "node package.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agentcore": "3.1155.0",
+    "@aws-sdk/client-ssm": "3.1155.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "account": "774569412819",
+  "region": "us-east-1",
+  "profile": "aidefense",
+  "modelId": "amazon.nova-micro-v1:0",
+  "modelResourceArns": [
+    "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0"
+  ],
+  "initialEmail": "jaruddy@cisco.com",
+  "monthlyBudgetUsd": 25
+}

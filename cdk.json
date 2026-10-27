@@ -1,0 +1,7 @@
+{
+  "app": "node --import tsx infra/app.ts",
+  "context": {
+    "@aws-cdk/aws-iam:minimizePolicies": true,
+    "@aws-cdk/core:checkSecretUsage": true
+  }
+}

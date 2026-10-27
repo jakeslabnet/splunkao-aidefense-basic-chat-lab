@@ -1,0 +1,6 @@
+bedrock-agentcore==1.24.2
+boto3==1.43.117
+cisco-aidefense-sdk==2.2.0
+splunk-ao==0.5.0
+agent-control-sdk==8.14.0
+strands-agents[otel]==1.62.0
